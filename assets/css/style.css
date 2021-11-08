@@ -52,15 +52,58 @@ header .navigation{
     position: relative;
     display: flex;
 }
-/*retire le style de la liste*/
+/*retire le style de la liste de la navbar*/
 header .navigation li{
     list-style: none;
 }
-/*paramètres du texte*/
+/*paramètres du texte de la navbar*/
 header .navigation li a{
     display: inline-block;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+}
+
+/*paramètres et postion du contenu*/
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*paramètres et taille du texte dans le contenu*/
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+/*paramètres du titre du contenu*/
+.content .textBox h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+/*paramètres du contenu (texte)*/
+.content .textBox p{
+    color: #fff;
+}
+
+/*paramètres du contenu (Learn more) ajoute le contour et le style du texte*/
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #e51e2a;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
