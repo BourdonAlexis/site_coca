@@ -1,14 +1,15 @@
 //Initialise le slider
-var swiper = new Swiper(".swiperCoca", {
+var swiper = new Swiper(".swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-        rotate: 50,
+        rotate: 0,
         stretch: 0,
-        depth: 100,
+        depth: 200,
         modifier: 1,
         slideShadows: true,
     },
+    loop: true
 });
