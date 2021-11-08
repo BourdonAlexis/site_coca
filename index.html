@@ -9,7 +9,9 @@
 </head>
 <body>
     <section>
+        <!--   cercle décoration en haut à droite     -->
         <div class="circle"></div>
+        <!--    logo et barre de navigation    -->
         <header>
             <a href="#"><img src="src/pictures/logo.png" alt="logo" class="logo"></a>
             <ul class="navigation">
@@ -19,13 +21,31 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </header>
+        <!--   Texte + slider     -->
         <div class="content">
+            <!--  contenu texte à gauche       -->
             <div class="textBox">
                 <h2>Taste the Feeling</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae magna eu elit ultricies posuere. Ut non neque eu nunc elementum egestas. Nunc scelerisque ex sit amet elit elementum tristique. Nam tincidunt nisl a tellus sagittis, sed congue felis tincidunt. Fusce quis dui sit amet eros hendrerit dignissim at vel lacus. Cras ex elit, congue varius lectus a, posuere pulvinar purus. Suspendisse ligula mi, volutpat et leo nec, facilisis elementum sem. Fusce varius efficitur metus sed dapibus. Praesent pharetra urna eget nunc varius, nec pellentesque mauris congue. Integer porttitor scelerisque leo quis lobortis. Donec consectetur faucibus interdum. Nulla vel libero arcu.</p>
                 <a href="#">Learn more</a>
             </div>
+            <!--  Slider  https://codesandbox.io/s/reie4?file=/index.html:2389-2839 -->
+            <div class="imgBox">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="src/pictures/cocacola1.png" alt="cocacola"/></div>
+                        <div class="swiper-slide"><img src="src/pictures/cocacola2.png" alt="cocacola"/></div>
+                        <div class="swiper-slide"><img src="src/pictures/cocacola3.png" alt="cocacola"/></div>
+                        <div class="swiper-slide"><img src="src/pictures/cocacola4.png" alt="cocacola"/></div>
+                        <div class="swiper-slide"><img src="src/pictures/cocacola5.png" alt="cocacola"/></div>
+                        <div class="swiper-slide"><img src="src/pictures/cocacola6.png" alt="cocacola"/></div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+        <!--   liens vers les réseaux sociaux     -->
         <ul class="sci">
             <li><a href="#"><img src="src/pictures/facebook.png" alt="facebook"></a></li>
             <li><a href="#"><img src="src/pictures/twitter.png" alt="twitter"></a></li>
@@ -34,5 +54,8 @@
     </section>
     <!--CDN swiper js https://swiperjs.com/get-started-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- importe le script -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

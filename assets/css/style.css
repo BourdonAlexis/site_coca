@@ -147,3 +147,44 @@ header .navigation li a{
     filter: invert(1); /*inverse la couleur*/
     transform: scale(0.5); /*transforme la taille (diminution de moitié)*/
 }
+
+
+/************slider***************/
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .imgBox {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .imgBox img {
+    max-width: 150px;
+}
+
+.swiper-slide img{
+    position: absolute;
+    bottom: 0;
+    max-height: 100%;
+    /*top: 1%;*/
+}
+
+.swiper-container-3d .swiper-slide-shadow-left{
+    background-image: none;
+}
+.swiper-container-3d .swiper-slide-shadow-right{
+    background-image: none;
+}
