@@ -150,7 +150,7 @@ header .navigation li a{
 
 
 /************slider***************/
-.swiper-container {
+.swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -159,32 +159,19 @@ header .navigation li a{
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 180px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
 }
 
 .content .imgBox {
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: flex-end;
 }
 
-.content .imgBox img {
-    max-width: 150px;
-}
-
-.swiper-slide img{
-    position: absolute;
-    bottom: 0;
-    max-height: 100%;
-    /*top: 1%;*/
-}
-
-.swiper-container-3d .swiper-slide-shadow-left{
-    background-image: none;
-}
-.swiper-container-3d .swiper-slide-shadow-right{
-    background-image: none;
-}

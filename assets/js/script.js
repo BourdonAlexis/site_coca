@@ -1,6 +1,5 @@
 //Initialise le slider
-
-var swiper = new Swiper(".swiper-container", {
+var swiper = new Swiper(".swiperCoca", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
