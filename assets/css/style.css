@@ -150,12 +150,14 @@ header .navigation li a{
 
 
 /************slider***************/
+/*taille et position du swiper*/
 .swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/*taille du slider */
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -165,23 +167,27 @@ header .navigation li a{
     justify-content: center;
 }
 
+/*taille des images dans le slider*/
 .content .imgBox {
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     display: flex;
     justify-content: flex-end;
 }
 
+/*largeur maximum des images*/
 .content .imgBox img {
     max-width: 100%;
 }
 
+/*taille max des images dans le slider*/
 .swiper-slide img {
     position: absolute;
     max-height: 100%;
     bottom: 0;
 }
 
+/*suppresion des ombres du swiper*/
 .swiper-3d .swiper-slide-shadow-left ,
 .swiper-3d .swiper-slide-shadow-right {
     background-image: none;

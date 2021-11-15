@@ -13,3 +13,12 @@ var swiper = new Swiper(".swiper", {
     },
     loop: true
 });
+
+//Fonction du bouton menu de la navbar (petit écran)
+// active la fonction lors du click sur le bouton menu
+function toggleMenu() {
+    const menuToggle = document.querySelector('.toggle')
+    const navigation = document.querySelector('.navigation')
+    menuToggle.classList.toggle('active')
+    navigation.classList.toggle('active')
+}
